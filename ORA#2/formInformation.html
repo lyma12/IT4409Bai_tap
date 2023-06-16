@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="edit.css" rel = "stylesheet">
+    <title>Edit Information</title>
+</head>
+<body>
+    <div class="container">
+        <h3>CHỈNH SỬA THÔNG TIN SINH VIÊN</h3>
+        <form id = "edit-form" action = "Information.html" method = "post">
+        <h3>Thông tin học tập</h3>
+        <div class = "ta">
+            <div>
+                <table>
+                    <tr>
+                        <th> <label for = "name">Họ và tên&emsp;:</label></th>
+                        <th>
+                            <input type = "text" id = "name" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th> <label for = "year">Năm vào trường&emsp;:</label></th>
+                        <th>
+                            <input type = "number" id = "year" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "bacdotao">Bậc đào tạo&emsp;:</label></th>
+                        <th>
+                            <input type = "text" id = "bacdaotao" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "chuongtrinh">Chương trình&emsp;:</label></th>
+                        <th>
+                            <input type = "text" id = "chuongtrinh" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "vienquanly">Viện quản lý&emsp;:</label></th>
+                        <th>
+                            <input type = "text" id = "vienquanly" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "tinhtrang">Tình trạng học tập&emsp;:</label></th>
+                        <th>
+                            <input type = "text" id = "tinhtrang" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "sex">Giới tính&emsp;:</label></th>
+                        <th>
+                            <select id = "sex">
+                                <option value = "Nữ">Nữ</option>
+                                <option value = "Nam">Nam</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "class">Lớp&emsp;:</label></th>
+                        <th>
+                            <input type = "text" id = "class" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "khoa">Khóa&emsp;:</label></th>
+                        <th>
+                            <input type = "number" id = "khoa" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "email">Email&emsp;:</label></th>
+                        <th>
+                            <input type = "email" id = "email" required>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th><label for = "tongkethocky">Tổng kết học kỳ</label></th>
+                        <th>
+                            <input type = "number" id = "tongkethocky" required>
+                        </th>
+                        
+                    </tr>
+                    <tr>
+                        <th><label for = "trungbinhtichluy">Trung bình tích lũy</label></th>
+                        <th>
+                            <input type = "float" id = "trungbinhtichluy" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for = "no">Số TC nợ đăng ký</label></th>
+                        <th>
+                            <input type = "number" id = "no" required>
+                        </th>
+                        
+                    </tr>
+                    <tr>
+                        <th><label for = "tichluy">Số TC tích lũy</label>
+                        </th>
+                        <th>
+                            <input type = "number" id = "tichluy" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for = "numer">
+                            Trình độ sinh viên&emsp;:
+                            </label></th>
+                        <th>
+                            <input type = "number" id = "trinhdo" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for = "muccanhbao">
+                            Mức cảnh báo&emsp;:
+                            </label></th>
+                        <th>
+                            <input type = "text" id = "muccanhbao" required>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <h3>Thông tin cá nhân</h3>
+        <div class="ta">
+
+            <div class = "container">
+            <table>
+                <tr>
+                    <th>
+                        <label for = "dantoc">
+                        Dân tộc&emsp;:
+                    </label>
+                </th>
+                    <th>
+                        <input type = "text" id = "dantoc">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "namTN">
+                        Năm TN cấp 3&emsp;:
+                        </label></th>
+                    <th>
+                        <input type = "text" id = "namTN">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "address">
+                        Địa chỉ&emsp;:</label>
+                    </th>
+                    <th>
+                        <input type = "text" id = "address">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "CMND">
+                        Số CMTND&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id = "CMND" required>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "noicap">
+                        Nơi cấp&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id ="noicap" required>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "father">
+                        Họ tên bố&emsp;:</label>
+
+                    </th>
+                    <th>
+                        <input type = "text" id = "father">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "fbirthday">
+                        Năm sinh&emsp;:
+                        </label></th>
+                    <th>
+                        <input type = "date" id = "fbirthday">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "fcareer">
+                        Nghề nghiệp&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id = "fcareer">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "fphone">
+                        Điện thoại&emsp;:</label></th>
+                    <th>
+                        <input type = "number" id = "fphone">
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "femail">
+                        Email&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id = "femail">
+                    </th>
+                </tr>
+            </table>
+            </div>
+            <div class = "container">
+            <table>
+                <tr>
+                    <th><label for = "tongiao">
+                        Tôn giáo&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id ="tongiao">
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "school3">
+                        Trường THPT&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id = "school3">
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "hokhau">
+                        Hộ khẩu&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id = "hokhau" required>
+                    </th>
+                </tr>
+                
+                <tr>
+                    <th><label for = "sphone">
+                        Số Điện thoại&emsp;:</label></th>
+                    <th>
+                        <input type = "number" id = "sphone" required>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "mother">
+                        Họ tên mẹ&emsp;:</label></th>
+                    <th>
+                        <input type = "text" id = "mother">
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "mbirthday">
+                        Năm sinh&emsp;:
+                    </label></th>
+                    <th>
+                        <input type = "date" id = "mbirthday">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for = "mcareer">
+                        Nghề nghiệp&emsp;:
+                        </label>
+                    </th>
+                    <th>
+                        <input type = "text" id = "mcareer">
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "mphone">
+                        Điện thoại&emsp;:
+                    </label></th>
+                    <th>
+                        <input type = "number" id = "mphone" >
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for = "memail">
+                        Email&emsp;:
+                    </label></th>
+                    <th>
+                        <input type = "text" id = "memail"> 
+                    </th>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div class="ta"> 
+            <button type = "submit" onclick = "location.href = 'Information.html'">Ok</button>
+            <button type = "button" onclick = "location.href = 'Information.html'">Cancel</button>
+        </div>
+        </form>
+
+        
+    </div>
+</body>
+</html>

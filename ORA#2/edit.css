@@ -1,0 +1,26 @@
+*{
+    padding: 2px;
+}
+h3{
+    text-align: center;
+}
+
+.ta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+}
+
+
+
+table{
+    border: none;
+}
+
+button{
+    margin: 20px;
+    width: 200px;
+}
